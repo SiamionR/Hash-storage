@@ -5,8 +5,8 @@ This is the code repository for my mini-project.
 ## Getting Started
 
 <blockquote>
-	OS: Linux (Arch Linux 5.6.8)
-	Compiler: GCC (9.3.0)
+	OS: Linux (Arch Linux 5.6.8) <br>
+	Compiler: GCC (9.3.0) <br>
 </blockquote>
 
 First of all, you'll need to download standalone [Asio Library](https://github.com/chriskohlhoff/asio).
@@ -18,14 +18,17 @@ sudo apt-get install asio
 ```
 
 Clone the repository:
- 
+
+```bash
+git clone https://github.com/SiamionRalionak/Hash-storage.git
+```
 
 ## Compilation
 
 For server:
 
 ```bash
-g++ -std=c++17 -pthread -Wall -Wextra -Wshadow -pedantic -o build/Server source/Server.cpp 
+g++ -std=c++17 -pthread -Wall -Wextra -Wshadow -pedantic -o build/Server source/Server.cpp
 ```
 
 For client:
@@ -35,7 +38,7 @@ g++ -std=c++17 -pthread -Wall -Wextra -Wshadow -pedantic -o build/Client source/
 ```
 
 
-## Usage 
+## Usage
 
 ```bash
 cd build
