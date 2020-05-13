@@ -28,6 +28,7 @@ git clone https://github.com/SiamionRalionak/Hash-storage.git
 For server:
 
 ```bash
+mkdir build
 g++ -std=c++17 -pthread -Wall -Wextra -Wshadow -pedantic -o build/Server source/Server.cpp
 ```
 
