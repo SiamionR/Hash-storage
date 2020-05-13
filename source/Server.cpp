@@ -27,9 +27,12 @@ auto handle_delete(std::istream& In, umSS& hash)
     std::string key;
     std::ostringstream output;
     In >> key;
-    hash.erase(key);
-    output << "DELETE command completed.\n\t" << key
-           << " removed from the container!\n";
+    if (hash.erase(key)) {
+        output << "DELETE command completed.\n\tKey [" << key
+               << "] removed from the container!\n";
+    } else {
+        output << "DELETE command completed.\n\tThere's nothing to remove!\n";
+    }
     return std::string{output.str()};
 }
 
