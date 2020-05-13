@@ -45,3 +45,25 @@ cd build
 ./Server &
 ./Client
 ```
+
+## Screenshots
+
+# Run Server & Client
+
+<p align="center"><img src="assets/runServer.jpg"/></p>
+
+# INSERT command
+
+<p align="center"><img src="assets/insert.jpg"/></p>
+
+# GET command
+
+<p align="center"><img src="assets/get.jpg"/></p>
+
+# DELETE command
+
+<p align="center"><img src="assets/delete.jpg"/></p>
+
+# Invalid command
+
+<p align="center"><img src="assets/undefined.jpg"/></p>
